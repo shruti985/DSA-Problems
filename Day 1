@@ -1,0 +1,13 @@
+Problem:Reverse bits(Gfg)
+class Solution {
+    static Long reversedBits(Long x) {
+           double i=31,a,ans=0;
+        while(x>0){
+            a=x%2;
+            ans=ans+Math.pow(2,i)*a;
+            i--;
+            x=x/2;
+        }        
+        return (long)ans;
+    }
+};
