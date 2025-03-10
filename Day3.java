@@ -1,5 +1,5 @@
-LeetCode POTD:https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/
-04/03/2025
+//LeetCode POTD:https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/
+//04/03/2025
 class Solution {
     public boolean checkPowersOfThree(int n) {
         int num=n,i=-1,sum=0;
@@ -22,5 +22,5 @@ class Solution {
         return false;
     }
 }
-SC:O(1)
-TC:O(logn)
+// SC:O(1)
+// TC:O(logn)
